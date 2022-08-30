@@ -1,0 +1,16 @@
+.overview-chart {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 7rem;
+    margin-top: 20px;
+    margin-bottom: 1rem;
+    min-height: 40vh;
+    overflow: auto;
+}
+
+.overview-chart-box {
+    width: 495px;
+    height: 321px;
+    background: hsla(175, 27%, 92%, 1);
+}

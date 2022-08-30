@@ -1,0 +1,89 @@
+.add-admin {
+    max-width: 320px;
+    width: 100%;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.logo .logo-img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.add-admin-form {
+    background: var(--secondary-color);
+    padding: 20px 50px 75px 50px;
+    width: inherit;
+}
+
+.add-admin-title {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+    color: var(--base-color);
+    margin-bottom: 2rem;
+}
+
+.add-admin-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+}
+
+.add-admin-email,
+.add-admin-password {
+    margin-bottom: 1.4rem;
+    width: 100%;
+} 
+
+.add-admin-password {
+    margin-bottom: 2.5rem;
+}
+
+.add-admin-email label,
+.add-admin-password label {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.add-admin-email input,
+.add-admin-password input {
+    padding: 7px;
+    border-radius: 5px;
+    border: transparent;
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid rgba(51, 51, 51, 0.418);
+}
+
+
+.btn-admin {
+    padding: 5px 10px;
+    width: 50%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: var(--secondary-color);
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-admin:hover {
+    opacity: 0.85;
+}

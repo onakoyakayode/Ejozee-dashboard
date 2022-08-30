@@ -1,0 +1,15 @@
+
+:root {
+  --primary-color: hsla(158, 48%, 68%, 1);
+  --secondary-color: hsla(148, 54%, 70%, 1);
+  --dash-color: #fff;
+  --chart-color: hsla(203, 57%, 35%, 1);
+  --chart2-color: hsla(38, 100%, 85%, 1);
+  --base-color: hsla(0, 0%, 0%, 1);
+  --hover-color: hsla(175, 27%, 92%, 1);
+}
+
+body {
+  background-color: var(--dash-color);
+}
+

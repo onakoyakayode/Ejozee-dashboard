@@ -1,0 +1,53 @@
+.navbar-item {
+    padding-bottom: 5px;
+    color: var(--base-color);
+    display: block;
+    width: 100%;
+    transition: background-color 0.15s;
+}
+
+.navbar-item:hover {
+    background-color: var(--hover-color);
+    background-color: #fff;
+    box-shadow: 0 4px 4px hsla(0, 0%, 0%, 0.25);
+    cursor: pointer;
+}
+
+.navbar-item-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+}
+
+.navbar-errand-list {
+    padding-inline-start: 40px;
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: initial;
+}
+
+.navbar-errand-list span a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navbar-errand-list span a:hover {
+    background: var(--hover-color);
+}
+
+.navbar-item.open .navbar-errand-list {
+    height: auto;
+}
+
+.toggle-btn {
+    transition: transform 0.3s;
+}
+
+.navbar-item.open .toggle-btn {
+    transform: rotate(180deg);
+}

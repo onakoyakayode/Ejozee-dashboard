@@ -1,0 +1,64 @@
+.grocery-container {
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-x: visible;
+}
+
+
+.grocery-client {
+    width: 30%;
+    height: 350px;
+    margin-bottom: 2rem;
+}
+
+
+.client-img {
+    width: 100%;
+    height: 200px;
+}
+
+.client-img .client {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.client-details {
+    padding-top: 10px;
+    height: 160px;
+    text-align: center;
+    background: var(--hover-color);
+    position: relative;
+}
+
+.client-details::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    left: 0%;
+    bottom: 0;
+    border-left: 160px solid transparent;
+    border-right: 160px solid transparent;
+    border-bottom: 25px solid #fff;
+}
+
+.store-name {
+    font-size: 1.2rem;
+}
+
+
+.store-address,
+.store-num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: .9rem;
+    font-weight: 500;
+}

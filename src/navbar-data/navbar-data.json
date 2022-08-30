@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Errands",
+        "icon": "bi-gear-fill",
+        "children": [
+            {
+                "title": "Pending Errands",
+                "icon": "",
+                "path": "/pendingErrands"
+            },
+            {
+                "title": "Completed Errands",
+                "icon": "",
+                "path": "/completedErrands"
+            }
+        ]
+    },
+    {
+        "title": "Runners",
+        "icon": "bi-gear-fill",
+        "children": [
+            {
+                "title": "Verified Runners",
+                "icon": "",
+                "path": "/verifiedRunners"
+            },
+            {
+                "title": "Unverified Runners",
+                "icon": "",
+                "path": "/unverifiedRunners"
+            }
+        ]
+    },
+    {
+        "title": "Partners",
+        "icon": "bi-gear-fill",
+        "children": [
+            {
+                "title": "Groceries",
+                "icon": "",
+                "path": "/grocery"
+            },
+            {
+                "title": "Gift Shops",
+                "icon": "",
+                "path": "/"
+            },
+            {
+                "title": "Food Stores",
+                "icon": "",
+                "path": "/"
+            }
+        ]
+    }
+
+]

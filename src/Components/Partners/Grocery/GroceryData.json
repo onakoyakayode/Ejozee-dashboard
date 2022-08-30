@@ -1,0 +1,39 @@
+
+[
+    {
+        "image": "./grocery1.jpg",
+        "name": "Sublime Megamart",
+        "address": "Aminu crescent Wuse II, Abuja",
+        "phone": "090723468790, 09023455673"
+    },
+    {
+        "image": "./grocery2.jpg",
+        "name": "Super Shoppy",
+        "address": "Aminu crescent Wuse II, Lekki",
+        "phone": "09184745633, 08023455673"
+    },
+    {
+        "image": "./grocery3.jpg",
+        "name": "Sublime Megamart",
+        "address": "Aminu crescent Wuse II, Abuja",
+        "phone": "090723468790, 09023455673"
+    },
+    {
+        "image": "./grocery4.jpg",
+        "name": "Sublime Megamart",
+        "address": "Aminu crescent Wuse II, Abuja",
+        "phone": "090723468790, 09023455673"
+    },
+    {
+        "image": "./grocery5.jpg",
+        "name": "Sublime Megamart",
+        "address": "Aminu crescent Wuse II, Abuja",
+        "phone": "090723468790, 09023455673"
+    },
+    {
+        "image": "./grocery1.jpg",
+        "name": "Sublime Megamart",
+        "address": "Aminu crescent Wuse II, Abuja",
+        "phone": "090723468790, 09023455673"
+    }
+]

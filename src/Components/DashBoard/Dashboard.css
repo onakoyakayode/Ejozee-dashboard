@@ -1,0 +1,16 @@
+.dashboard-container {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+.dashboard-children {
+    position: relative;
+    left: 250px;
+    width: calc(100% - 250px);
+    min-height: 100vh;
+    background: #fff;
+    overflow-y: visible;
+}
