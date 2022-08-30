@@ -9,12 +9,6 @@ const NavBarItems = ({item}) => {
     const [open, setOpen] = useState(false)
     const [backgroundColor, setBackgroundColor] = useState(false)
 
-
-    const color = {
-        backgroundColor: backgroundColor ? "hsla(175, 27%, 92%, 1)" : "none"
-    }
-
-
     if (item.children) {
         return (
             <div className={ open ?'navbar-item open' : 'navbar-item' }>
