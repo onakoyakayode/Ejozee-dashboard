@@ -28,7 +28,7 @@ const NavBarItems = ({item}) => {
             <Link to={item.path || "#"} className="navbar-item">
                 
                 {item.title}
-                {item.icon && <i className="bi bi-hourglass"></i>}
+                {item.icon && <i></i>}
                 
             </Link>
         )

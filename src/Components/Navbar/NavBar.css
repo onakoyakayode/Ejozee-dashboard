@@ -18,6 +18,7 @@
     height: 70px;
     margin-bottom: 2rem;
     padding-left: 20px;
+    cursor: pointer;
 }
 
 .navbar-img .navbar-logo {
