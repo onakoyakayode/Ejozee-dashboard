@@ -1,6 +1,7 @@
 import React from 'react';
 import './Add-Admin.css'
 import Logo from '../../../Images/errand-logo.png';
+import { Link } from 'react-router-dom'
 
 
 
@@ -8,7 +9,7 @@ const AddAdmin = () => {
     return (
         <div className='add-admin'>
             <div className='logo'>
-                <img src={Logo} className='logo-img' alt='logo' /> 
+                <Link to ='/'><img src={Logo} className='logo-img' alt='logo' /> </Link>
             </div>
             <div className='add-admin-form'>
                 <h3 className='add-admin-title'>Add Admin</h3>

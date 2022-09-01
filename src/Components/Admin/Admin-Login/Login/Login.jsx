@@ -30,7 +30,7 @@ const Login = () => {
                             <label htmlFor="checkbox">Remember Me</label>
                         </div>
                         <div className='forgot-password'>
-                            <a href="#" className="forgot-password">Forgot Password</a>
+                            <Link to='' className="forgot-password">Forgot Password</Link>
                         </div>
                     </div>
                     <Link className='add-login-btn' to='/dashboard'><button className="btn-login">Login</button></Link>

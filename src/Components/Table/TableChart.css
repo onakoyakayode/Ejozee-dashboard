@@ -28,4 +28,5 @@ table th {
     color: hsla(0, 0%, 0%, 1);
     border-top: 1px solid #999;
     border-bottom: 1px solid #999;
+    font-weight: 900;
 }
