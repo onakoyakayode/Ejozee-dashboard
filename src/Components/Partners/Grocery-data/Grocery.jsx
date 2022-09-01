@@ -6,7 +6,6 @@ import '../Groceries/Groceries.css'
 
 
 const Grocery = ({data}) => {
-    console.log(data)
     return (
             <div className="grocery-client">
                 <div className="client-img">
