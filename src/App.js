@@ -7,10 +7,9 @@ import Admin from './Components/Admin/Admin';
 function App() {
   return (
     <div className="App">
-      <Admin />
-      <Router>
+       <Router>
        <Routing />
-      </Router>
+       </Router>
     </div>
   );
 }

@@ -7,6 +7,8 @@ import CompletedErrands from "../Components/Errands/Completed-Errands/CompletedE
 import VerifiedRunner from "../Components/Runners/VerifiedRunners/VerifiedRunners";
 import UnverifiedRunner from "../Components/Runners/UnverifiedRunners/UnverifiedRunners";
 import Groceries from "../Components/Partners/Groceries/Groceries";
+import Login from "../Components/Admin/Admin-Login/Login/Login";
+import AddAdmin from "../Components/Admin/Add Admin/Add-Admin";
 
 
 
@@ -15,16 +17,12 @@ import Groceries from "../Components/Partners/Groceries/Groceries";
 
 export const pageRoutes = [
     {
-        path: '/overview',
+        path: '/dashboard',
         element: <Overview />
     },
     {
         path: '/main',
         element: <Main />
-    },
-    {
-        path: '/dashboard',
-        element: <Dashboard />
     },
     {
         path: '/pendingErrands',
@@ -46,5 +44,13 @@ export const pageRoutes = [
     {
         path: '/grocery',
         element: <Groceries />
-    }
+    },
+    {
+        path: '/',
+        element: <Login />
+    },
+    {
+        path: '/addAdmin',
+        element: <AddAdmin />
+    },
 ]

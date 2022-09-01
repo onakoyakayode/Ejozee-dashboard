@@ -1,7 +1,6 @@
 import React, { useState} from 'react';
 import './NavBar-items.css'
-
-
+import {Link} from 'react-router-dom'
 
 const NavBarItems = ({item}) => {
 
@@ -20,18 +19,18 @@ const NavBarItems = ({item}) => {
                 </div>
                 <div className="navbar-errand-list">
                     <span onClick={() => setBackgroundColor(!backgroundColor)}>{item.children.map((child, index) => <NavBarItems key={index} item={child}/>)}</span>
-                    {item.children.icon && <i className="bi bi-chevron-down toggle-btn"></i>}
+                    {item.children.icon && <i className="bi-6-square"></i>}
                 </div>
             </div>
         )
     } else {
         return (
-            <a href={item.path || "#"} className="navbar-item">
+            <Link to={item.path || "#"} className="navbar-item">
                 
                 {item.title}
-                {item.icon && <i className="bi bi-chevron-down toggle-btn"></i>}
+                {item.icon && <i className="bi bi-hourglass"></i>}
                 
-            </a>
+            </Link>
         )
     }
 }

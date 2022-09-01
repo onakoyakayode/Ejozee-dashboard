@@ -5,12 +5,12 @@
         "children": [
             {
                 "title": "Pending Errands",
-                "icon": "",
+                "icon": "bi bi-hourglass-fill",
                 "path": "/pendingErrands"
             },
             {
                 "title": "Completed Errands",
-                "icon": "",
+                "icon": "bi bi-6-square",
                 "path": "/completedErrands"
             }
         ]
@@ -21,7 +21,7 @@
         "children": [
             {
                 "title": "Verified Runners",
-                "icon": "",
+                "icon": "bi bi-hourglass-fill",
                 "path": "/verifiedRunners"
             },
             {

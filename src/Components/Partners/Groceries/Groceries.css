@@ -11,9 +11,10 @@
 
 
 .grocery-client {
-    width: 30%;
+    width: 31%;
     height: 350px;
-    margin-bottom: 2rem;
+    display: inline-block;
+    margin: 1rem 10px 6rem 15px;
 }
 
 
