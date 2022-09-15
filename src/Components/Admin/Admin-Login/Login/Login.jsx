@@ -15,7 +15,7 @@ const Login = () => {
             </div>
             <div className='login-form'>
                 <h3 className='add-admin-title'>Ejozee Admin Panel</h3>
-                <form>
+                <form action='https://ejozeebackend.herokuapp.com/admin/' method='POST'>
                     <div className='login-email'>
                         <label htmlFor='email'>Email Address</label>
                         <input type='email' className='email' placeholder='Email Address' name='email' id='email'/>

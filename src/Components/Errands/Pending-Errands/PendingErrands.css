@@ -1,0 +1,121 @@
+.modal-content {
+    position: absolute;
+    left: 20%;
+    top: 5%;
+    max-width: 600px;
+    width: 100%;
+    height: max-content;
+    background: radial-gradient(134.94% 171.37% at 88.69% 89.09%, rgba(151, 175, 173, 0.9) 0%, rgba(229, 240, 239, 0.81) 98.44%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.65);
+    border-radius: 20px;
+    padding: 10px 40px 20px 40px;
+}
+
+.modal-title {
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    margin-bottom: 20px;
+}
+
+.close-img {
+    position: absolute;
+    left: 92%;
+    top: 5%;
+    cursor: pointer;
+}
+
+img.close-img {
+    width: 20px;
+}
+
+.pending-form {
+    margin-inline: auto;
+}
+
+.pending-form label {
+    margin-block-end: 5px;
+    display: block;
+    font-size: .9rem;
+}
+
+.pending-form input {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    width: 95%;
+}
+
+.pending-form textarea {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+.pending-date {
+    margin-block: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.pending-date input {
+    width: 19%;
+}
+
+.pending-fullname {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2.5rem;
+    margin-block: 20px;
+}
+
+.pending-fullname .pending-firstname,
+.pending-fullname .pending-lastname,
+.pending-mail-subject .pending-email,
+.pending-mail-subject .pending-subject {
+    width: 45%;
+}
+
+.pending-mail-subject {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2.5rem;
+    margin-block: 20px;
+}
+
+.pending-loaction {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.pending-errand-details {
+    width: 100%;
+}
+
+.pending-errand-details-textarea {
+    width: 95%;
+    height: 90px;
+}
+
+
+.pending-submit-button {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 0 auto;
+    text-transform: uppercase;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    color: #095B20;
+    text-shadow: 0px 5px 4px rgba(10, 174, 115, 0.25);
+    padding: 10px 20px;
+}

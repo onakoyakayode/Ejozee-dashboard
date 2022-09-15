@@ -13,7 +13,7 @@ const AddAdmin = () => {
             </div>
             <div className='add-admin-form'>
                 <h3 className='add-admin-title'>Add Admin</h3>
-                <form>
+                <form action=' https://ejozeebackend.herokuapp.com/admin/' method='POST'>
                     <div className='add-admin-email'>
                         <label htmlFor='email'>Email Address</label>
                         <input type='email' className='email' placeholder='Email Address' name='email' id='email'/>

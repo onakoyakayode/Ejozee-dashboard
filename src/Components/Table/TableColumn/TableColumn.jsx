@@ -1,7 +1,7 @@
 const TableColumn = [
     {
         Header: "Date",
-        accessor: "Date"
+        accessor: "date"
     },
     {
         Header: "ID",
@@ -9,23 +9,23 @@ const TableColumn = [
     },
     {
         Header: "FirstName",
-        accessor: "FirstName"
+        accessor: "firstName"
     },
     {
         Header: "LastName",
-        accessor: "LastName"
+        accessor: "lastName"
     },
     {
         Header: "Email Address",
-        accessor: "Email Address"
+        accessor: "email"
     },
     {
         Header: "Subject",
-        accessor: "Subject"
+        accessor: "subject"
     },
     {
         Header: "Action",
-        accessor: "Action"
+        accessor: "action"
     },
 
 ]
