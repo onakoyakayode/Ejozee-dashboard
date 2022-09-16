@@ -23,26 +23,23 @@ const VerifiedRunner = () => {
                 }
                 throw response;
             })
-                .then (data => {
-                    setRunner(data);
-                })
+            .then (data => {
+                setRunner(data);
+            })
 
-                .catch(error => {
-                    console.error("Error Fetching data:", error);
-                    setError(error)
-                })
+            .catch(error => {
+                console.error("Error Fetching data:", error);
+                setError(error)
+            })
 
-                .finally(() => {
-                    setLoading(false)
-                })
-
-
-
+            .finally(() => {
+                setLoading(false)
+            })
             
     }, [])
 
-            if (loading) return "Loading......";
-            if (error) return "Error Fetching Data!"
+    if (loading) return "Loading......";
+    if (error) return "Error Fetching Data!"
     
 
 

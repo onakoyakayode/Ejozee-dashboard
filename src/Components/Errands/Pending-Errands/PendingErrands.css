@@ -119,3 +119,8 @@ img.close-img {
     text-shadow: 0px 5px 4px rgba(10, 174, 115, 0.25);
     padding: 10px 20px;
 }
+
+.pending-errand-details-textarea:focus {
+    border: none;
+    outline: none;
+}
