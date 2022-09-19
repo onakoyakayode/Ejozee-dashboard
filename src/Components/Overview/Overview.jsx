@@ -1,7 +1,7 @@
 import React from 'react';
 import PieChart from '../Charts/PieChart/PieChart';
 import Dashboard from '../DashBoard/Dashboard';
-import TableChart from '../Table/TableChart';
+import PendingChart from '../Table/PendingCharts'
 
 import './Overview.css'
 
@@ -14,7 +14,7 @@ const Overview = () => {
                 <div className='overview-chart-box'></div>
                 <PieChart />
             </div>
-            <TableChart />
+            <PendingChart />
         </Dashboard>
     )
 }

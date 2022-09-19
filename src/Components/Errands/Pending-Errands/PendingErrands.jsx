@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
-import TableChart from '../../Table/TableChart';
+// import TableChart from '../../Table/TableChart';
 import './PendingErrands.css'
 import close from '../../../../src/icon/x-lg.svg'
 import Dashboard from '../../DashBoard/Dashboard';
@@ -48,7 +48,7 @@ const PendingErrands = () => {
     return (
         <Dashboard>
             
-            {{pendingErrands} && <TableChart />} 
+            {{pendingErrands}} 
            
            {open && <div className='modal-content'>
                 <h1 className='modal-title'>Errand 001</h1>
