@@ -10,7 +10,7 @@ import TableColumn from './TableColumn/TableColumn';
 // import Dashboard from '../DashBoard/Dashboard';
 // import PendingErrands from '../Errands/Pending-Errands/PendingErrands';
 
-import close from "../../icon/x-lg.svg"
+// import close from "../../icon/x-lg.svg"
 import { useCallback } from 'react';
 
 
@@ -26,7 +26,7 @@ const TableChart = () => {
         fetch("https://ejozeebackend.herokuapp.com/admin/errandSenderFalse")
         .then(res => res.json())
         .then(data =>setPendingChart(data))
-    }, [pendingChart])
+    }, [])
 
     useEffect(() => {        
         fetchData();

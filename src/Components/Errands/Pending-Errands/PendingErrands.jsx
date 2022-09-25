@@ -18,7 +18,8 @@ const PendingErrands = () => {
 
 
     useEffect(() => {
-        fetch("https://ejozeebackend.herokuapp.com/admin/errandSenderFalse")
+        // https://ejozeebackend.herokuapp.com/admin/errandSenderFalse
+        fetch("")
             .then(response => {
                 if (response.ok) {
                     return response.json()
