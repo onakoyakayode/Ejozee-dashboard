@@ -42,6 +42,7 @@
     justify-content: center;
     align-items: center;
     width: inherit;
+    margin: auto;
 }
 
 .add-admin-email,
@@ -59,15 +60,15 @@
     display: block;
     font-size: 1.1rem;
     font-weight: 500;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .add-admin-email input,
 .add-admin-password input {
-    padding: 7px;
+    padding: 12px;
     border-radius: 5px;
     border: transparent;
-    width: 100%;
+    width: 95%;
 }
 
 input:focus {

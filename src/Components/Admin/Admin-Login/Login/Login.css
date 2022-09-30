@@ -20,8 +20,8 @@
 
 .login-form {
     background: var(--secondary-color);
-    padding: 20px 50px 50px 50px;
-    width: inherit;
+    padding: 20px 50px;
+    width: 100%;
     border-radius: 20px;
 }
 
@@ -32,7 +32,7 @@
     text-transform: uppercase;
     text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
     color: var(--base-color);
-    margin-bottom: 2.5rem;
+    margin-bottom: 3rem;
 }
 
 .login-form form {
@@ -40,7 +40,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: inherit;
+    width: 100%;
 }
 
 .login-email,
@@ -58,15 +58,15 @@
     display: block;
     font-size: 1.1rem;
     font-weight: 500;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .login-email input,
 .login-password input {
-    padding: 7px;
+    padding: 12px;
     border-radius: 5px;
     border: transparent;
-    width: 100%;
+    width: 95%;
 }
 
 input:focus {
@@ -95,7 +95,7 @@ input:focus {
 
 
 .btn-login {
-    padding: 10px 15px;
+    padding: 10px 25px;
     border: 1px solid transparent;
     border-radius: 5px;
     color: var(--secondary-color);
@@ -119,7 +119,7 @@ input:focus {
 
 .add-admin-text,
 .add-admin-login {
-    padding: 10px 15px;
+    padding: 10px 25px;
     border: 1px solid transparent;
     border-radius: 5px;
     color: var(--secondary-color);
